@@ -8,8 +8,28 @@
     <title>Calculadora IMC</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="first_box">
+            <h1>Clique em 'Next' para calcular seu IMC!</h1>
+            <button id="start">Next</button>
+        </div>
+        
+        <div class="second_box">
+            <h1>Calculadora de IMC</h1>
+            <p>Digite seu peso:</p>
+            <input placeholder="Digite seu peso" id="weight" type="text">
+            <p>Digite sua altura:</p>
+            <input placeholder="Digite sua altura" id="height" type="text">
+            <button id="calc">Calcular</button>
+        </div>
 
+        <div class="third_box">
+            <h1>Resultado:</h1>
+            <p id="resultado">Valor</p>
+            <button id="restart">Calcular Novamente</button>
+            <button id="end">Encerrar</button>
+        </div>
+    </div>
     <script src="script/script.js"></script>
 </body>
 </html>

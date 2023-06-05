@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b6d7f;
+    color: white;
+    text-align: center;
+}
+
+/*Centralizar e estilizar container*/
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 20px;
+}
+
+/*estilo do botão*/
+button{
+    background-color: #3c7781;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(62, 126, 121);
+}
+
+/*estilo da primeira tela*/
+.first_box h1{
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+/*estilo da segunda tela*/
+.second_box h1{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.second_box p,
+.third_box p{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.second_box input{
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/*estilo da terceira tela*/
+.third_box h1{
+    font-size: 20px;
+}
+.third_box button{
+    margin-right: 10px;
+}
+
+
+/*escolher telas*/
+.first_box,
+.third_box{
+    display: none;
+}
