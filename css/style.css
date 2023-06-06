@@ -63,6 +63,12 @@ button:hover{
     padding: 10px;
     margin-bottom: 15px;
 }
+.second_box button{
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
 
 /*estilo da terceira tela*/
 .third_box h1{
@@ -74,7 +80,7 @@ button:hover{
 
 
 /*escolher telas*/
-.first_box,
-.third_box{
+.third_box,
+.second_box{
     display: none;
 }
